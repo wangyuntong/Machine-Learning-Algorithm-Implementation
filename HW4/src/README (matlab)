@@ -1,0 +1,23 @@
+movie_ratings.mat contains the following:
+
+
+movie: a struct with the following fields
+
+	-- movie(i).user_id is a vector containing the index values of all users who have rated the ith movie.
+
+	-- movie(i).rating is a vector containing the corresponding ratings. 
+	   movie(i).rating(j) is the rating given to movie i by user movie(i).user_id(j)
+
+
+user: a struct that is the user-version of the movie struct. It contains the following fields
+
+	-- user(i).movie_id is a vector containing the index values of all movies rated by the ith user
+
+	-- user(i).rating is a vector containing the corresponding ratings. 
+	   user(i).rating(j) is the rating given to movie user(i).movie_id(j) by user i
+
+
+ratings_test: contains the ratings for testing. The first column contains the user id, the second column contains the movie id and the third column contains the ground truth rating. This value is only used to calculate the prediction error.
+
+
+movie_names: a mapping from movie index to movie name
