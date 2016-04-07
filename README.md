@@ -16,6 +16,6 @@ COMS W4721 Machine Learning for Data Science
 ## HW4
 1. K-means on generated multivariate gaussian data
 2. MAP Inference on movie rating data:
-    Perform matrix factorization on the dataset and fill up the missing data.
-    Perform k-means on movie location and user location.
-    Analyse the popular user personality and popular movie type.
+..*Perform matrix factorization on the dataset and fill up the missing data.
+..*Perform k-means on movie location and user location.
+..*Analyse the popular user personality and popular movie type.
