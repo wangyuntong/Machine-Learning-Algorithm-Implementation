@@ -55,6 +55,9 @@ function [U, V, RMSE,logLikelihood] = matrixFactorization(sigma_square, dim, lam
             end
         end
         % Calculate RMSE
+%         error = immse(pred, testData(:,3));
+%         RMSE(iter,1) = sqrt(error);
+        
         RMSE(iter,1) = sqrt(mean((pred - testData(:,3)).^2));
         % Calculate log likelihood
         for i = 1 : N_object
