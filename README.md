@@ -19,3 +19,9 @@ COMS W4721 Machine Learning for Data Science
     1. Perform matrix factorization on the dataset and fill up the missing data.
     2. Perform k-means on movie location and user location.
     3. Analyse the popular user personality and popular movie type.
+
+## HW5
+1. Markov chains to predict football team ranks.
+2. Nonnegative matrix factorization:
+    1. On face images, using square errror penalty.
+    2. On NYT docs, topic model, using divergence penalty.
