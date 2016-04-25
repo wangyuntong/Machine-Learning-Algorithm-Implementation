@@ -1,2 +1,9 @@
 # Lecture Notes
 lecture/
+
+# HW doc
+*.docx
+*.doc
+
+# Exam
+exam/*
